@@ -5,4 +5,4 @@ databricks
 databricks-cli
 ipython
 databricks-sql-connector
-databricks-connect=10.4.*
+databricks-connect==10.4.*
