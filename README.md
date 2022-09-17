@@ -16,10 +16,10 @@
 - [Place in Codespace Secrets](https://learn.microsoft.com/en-us/azure/databricks/dev-tools/python-api#unixlinuxandmacos)
 
 ~~~
-DATABRICKS_HOST </br>
-DATABRICKS_HTTP_PATH </br>
-DATABRICKS_SERVER_HOSTNAME </br>
-DATABRICKS_TOKEN </br>
+DATABRICKS_HOST
+DATABRICKS_HTTP_PATH
+DATABRICKS_SERVER_HOSTNAME
+DATABRICKS_TOKEN
 ~~~
 
 ## Test out the CLI
