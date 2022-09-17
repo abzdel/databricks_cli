@@ -1,2 +1,1 @@
-# abzdel_project1
-First project for IDS706.
+[![Python application test with Github Actions](https://github.com/nogibjj/abzdel_project1/actions/workflows/pylint.yml/badge.svg)](https://github.com/nogibjj/abzdel_project1/actions/workflows/pylint.yml)
