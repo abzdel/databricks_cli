@@ -6,7 +6,7 @@
 ## Key Objectives of this Project
 
 - The main goal is to **build a Python microservice that connects directly to Azure Databricks** through an API.
-- I have built a tool that uses the ![Fortune 1000 dataset from Kaggle](https://www.kaggle.com/datasets/surajjha101/fortune-top-1000-companies-by-revenue-2022).
+- I have built a tool that uses the [Fortune 1000 dataset from Kaggle](https://www.kaggle.com/datasets/surajjha101/fortune-top-1000-companies-by-revenue-2022).
   - To run this project yourself, you simply need to download this data and put it into Databricks (naming the table fortune_1000, and ensuring correct data types)
 - The user of the tool enters a **rank between 1-1000**, and the program returns the **company associated with that rank**.
 - This is quite a simple tool that returns a simple payload. However, this demonstrates my ability to speak directly to Azure Databricks, perform a query **customized by the user in the command line**, and return an associated output.
