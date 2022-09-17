@@ -32,7 +32,6 @@ def cli_query(query):
     default="SELECT name FROM default.fortune_1000 WHERE rank = 1 LIMIT 1",
     help="SQL query to execute",
 )
-
 def rank_query(rank):
     """
     Query fortune1000 table based on the rank of a company.
@@ -51,6 +50,7 @@ def rank_query(rank):
     rank = int(sys.argv[3])
 
     custom_query(rank)
+
 
 # run the CLI
 if __name__ == "__main__":

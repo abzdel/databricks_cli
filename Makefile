@@ -6,9 +6,9 @@ test:
 	python -m pytest -vv test_hello.py
 
 format:
-	black *.py
+	black dblib/*.py
 
 lint:
 	pylint --disable=R,C dblib
 
-all: install lint
+all: install lint format
