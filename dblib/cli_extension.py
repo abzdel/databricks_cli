@@ -1,3 +1,5 @@
+#!./venv/bin/python
+
 import click
 from querydb import querydb
 
@@ -14,9 +16,9 @@ def cli():
     default="SELECT * FROM default.diamonds LIMIT 2",
     help="SQL query to execute",
 )
-def cli_query():
+def cli_query(query):
     """Execute a SQL query"""
-    querydb()
+    querydb(query)
 
 
 # run the CLI
