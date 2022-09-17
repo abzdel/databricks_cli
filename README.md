@@ -1,7 +1,8 @@
 [![Python application test with Github Actions](https://github.com/nogibjj/abzdel_project1/actions/workflows/pylint.yml/badge.svg)](https://github.com/nogibjj/abzdel_project1/actions/workflows/pylint.yml)
 
 ## Architectural Diagram
-![ids706_project1 drawio](https://user-images.githubusercontent.com/55398496/190877160-cef690da-7588-4fea-9f46-5582ff5ab9a8.png)
+![ids706_project1 drawio](https://user-images.githubusercontent.com/55398496/190878578-50bf3b85-5a57-4139-8996-9e064ae91950.png)
+
 
 ## Key Objectives of this Project
 
