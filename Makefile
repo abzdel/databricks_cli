@@ -9,6 +9,6 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C temp.py
+	pylint --disable=R,C dblib
 
 all: install lint
