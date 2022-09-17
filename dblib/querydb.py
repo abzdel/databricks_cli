@@ -1,5 +1,5 @@
-from databricks import sql
 import os
+from databricks import sql
 
 def querydb():
 

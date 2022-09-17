@@ -1,5 +1,5 @@
 import click
-from dblib.querydb import querydb
+from querydb import querydb
 
 # build a click group
 @click.group()
