@@ -13,21 +13,25 @@
 
 ## Setup Authentication
 
-- ![Place in Codespace Secrets](https://learn.microsoft.com/en-us/azure/databricks/dev-tools/python-api#unixlinuxandmacos)
+- [Place in Codespace Secrets](https://learn.microsoft.com/en-us/azure/databricks/dev-tools/python-api#unixlinuxandmacos)
 
-    > DATABRICKS_HOST </br>
-    > DATABRICKS_HTTP_PATH </br>
-    > DATABRICKS_SERVER_HOSTNAME </br>
-    > DATABRICKS_TOKEN </br>
+~~~
+DATABRICKS_HOST </br>
+DATABRICKS_HTTP_PATH </br>
+DATABRICKS_SERVER_HOSTNAME </br>
+DATABRICKS_TOKEN </br>
+~~~
 
 ## Test out the CLI
 
-    databricks clusters list --output JSON | jq </br>
-    databricks fs ls dbfs:/ </br>
-    databricks jobs list --output JSON | jq </br>
-    
+~~~
+databricks clusters list --output JSON | jq </br>
+databricks fs ls dbfs:/ </br>
+databricks jobs list --output JSON | jq </br>
+~~~
+
 ## Remote Connect
-  ![Help can be found here](https://docs.databricks.com/dev-tools/databricks-connect.html)
+  [Help can be found here](https://docs.databricks.com/dev-tools/databricks-connect.html)
   
   
 ## Example
