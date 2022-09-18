@@ -43,6 +43,7 @@ def rank_query(rank):
     if not len(sys.argv) == 4:
         print("must enter ONE integer value when using --rank")
         exit()
+        
     if not sys.argv[3].isdigit():
         print("must enter an integer value for rank")
         exit()
