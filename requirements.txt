@@ -8,3 +8,4 @@ databricks-sql-connector
 databricks-connect==10.4.*
 uvicorn
 click
+seaborn
