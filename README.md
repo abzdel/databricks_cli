@@ -26,9 +26,9 @@ DATABRICKS_TOKEN
 ## Test out the CLI
 
 ~~~
-databricks clusters list --output JSON | jq </br>
-databricks fs ls dbfs:/ </br>
-databricks jobs list --output JSON | jq </br>
+databricks clusters list --output JSON | jq
+databricks fs ls dbfs:/
+databricks jobs list --output JSON | jq
 ~~~
 
 ## Remote Connect
